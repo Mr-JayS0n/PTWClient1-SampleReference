@@ -13,7 +13,7 @@ const routes: Routes = [
     path: '**', redirectTo: 'forminfo' , pathMatch: 'full'
   }
 ];
-
+//this
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

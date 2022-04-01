@@ -1,0 +1,15 @@
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/app/app-routing.module.ts b/src/app/app-routing.module.ts[m
+[1mindex 58377ae..cdc8fe0 100644[m
+[1m--- a/src/app/app-routing.module.ts[m
+[1m+++ b/src/app/app-routing.module.ts[m
+[36m@@ -13,7 +13,7 @@[m [mconst routes: Routes = [[m
+     path: '**', redirectTo: 'forminfo' , pathMatch: 'full'[m
+   }[m
+ ];[m
+[31m-[m
+[32m+[m[32m//this[m
+ @NgModule({[m
+   imports: [RouterModule.forRoot(routes)],[m
+   exports: [RouterModule][m
